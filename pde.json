@@ -2,7 +2,7 @@
     "helloworld":{"prefix":"helloworld","body":"helloworld","description":"大家好～！HelloWorld~!","scope": "source.pde"}
 ,"catch":{"prefix":"catch","body":"catch( ){ }","description":"捕获","scope": "source.pde"}
 ,"class":{"prefix":"class","body":"class","description":"自定义类","scope": "source.pde"}
-,"draw":{"prefix":"draw","body":"void draw( ){ }","description":"每秒60帧","scope": "source.pde"}
+,"draw":{"prefix":"draw","body":"void draw(){ }","description":"每秒60帧","scope": "source.pde"}
 ,"exit":{"prefix":"exit","body":"exit( );","description":"关闭窗口","scope": "source.pde"}
 ,"extends":{"prefix":"extends","body":"extends","description":"继承他类","scope": "source.pde"}
 ,"false":{"prefix":"false","body":"false","description":"假","scope": "source.pde"}
@@ -19,12 +19,12 @@
 ,"public":{"prefix":"public","body":"public","description":"全局声明","scope": "source.pde"}
 ,"push":{"prefix":"push","body":"push( );","description":"保存状态","scope": "source.pde"}
 ,"pushStyle":{"prefix":"pushStyle","body":"pushStyle( );","description":"保存状态","scope": "source.pde"}
-,"redraw":{"prefix":"redraw","body":"redraw( );","description":"重新绘制","scope": "source.pde"}
+,"redraw":{"prefix":"redraw","body":"redraw();","description":"重新绘制","scope": "source.pde"}
 ,"return":{"prefix":"return","body":"return","description":"返回值","scope": "source.pde"}
 ,"setLocation":{"prefix":"setLocation","body":"surface.setLocation(${1:x坐标},${2:y坐标});","description":"窗口坐标","scope": "source.pde"}
 ,"setResizable":{"prefix":"setResizable","body":"surface.setResizable(true);","description":"窗口宽高","scope": "source.pde"}
 ,"setTitle":{"prefix":"setTitle","body":"surface.setTitle( );","description":"窗口标题","scope": "source.pde"}
-,"setup":{"prefix":"setup","body":"void setup( ) { }","description":"初始设置","scope": "source.pde"}
+,"setup":{"prefix":"setup","body":"void setup() { }","description":"初始设置","scope": "source.pde"}
 ,"static":{"prefix":"static","body":"static","description":"静态类","scope": "source.pde"}
 ,"super":{"prefix":"super","body":"super","description":"超类","scope": "source.pde"}
 ,"this":{"prefix":"this","body":"this.","description":"该对象","scope": "source.pde"}
@@ -199,7 +199,7 @@
 ,"beginRecord":{"prefix":"beginRecord","body":"beginRecord( ${1:PDF}, ${2:文件.pdf});","description":"开始记录pdf","scope": "source.pde"}
 ,"createOutput":{"prefix":"createOutput","body":"createOutput(${1:文件} );","description":"创建输出","scope": "source.pde"}
 ,"createWriter":{"prefix":"createWriter","body":"createWriter( ${1:文件.txt});","description":"创建写入","scope": "source.pde"}
-,"endRaw":{"prefix":"endRaw","body":"endRaw( );","description":"结束生成pdf","scope": "source.pde"}
+,"endRaw":{"prefix":"endRaw","body":"endraw();","description":"结束生成pdf","scope": "source.pde"}
 ,"endRecord":{"prefix":"endRecord","body":"endRecord( );","description":"结束记录pdf","scope": "source.pde"}
 ,"PrintWriter":{"prefix":"PrintWriter","body":"PrintWriter pw;","description":"打印写入","scope": "source.pde"}
 ,"saveBytes":{"prefix":"saveBytes","body":"saveBytes( ${1:文件},${2:数组});","description":"保存字节","scope": "source.pde"}
@@ -346,23 +346,23 @@
 ,"TAU":{"prefix":"TAU","body":"TAU","description":"圆弧长","scope": "source.pde"}
 ,"TWO_PI":{"prefix":"TWO_PI","body":"TWO_PI","description":"圆弧长","scope": "source.pde"}
 
-,"void P2":{"prefix":"void P2","body":["void setup( ){",
+,"void P2":{"prefix":"void P2","body":["void setup(){",
     "    size(666,666);",
     "}",                
-    "void draw( ){",
+    "void draw(){",
     "}"],"description":"默认结构"}
-,"void P2D":{"prefix":"void P2D","body":["void setup( ){",
+,"void P2D":{"prefix":"void P2D","body":["void setup(){",
     "    size(666,666,P2D);",
     "}",                
-    "void draw( ){",
+    "void draw(){",
     "}"],"description":"P2D结构"}   
-,"void P3D":{"prefix":"void P3D","body":["void setup( ){",
+,"void P3D":{"prefix":"void P3D","body":["void setup(){",
     "    size(666,666,P3D);",
     "}",                
-    "void draw( ){",
+    "void draw(){",
     "}"],"description":"P3D结构"}
 ,"void PFont":{"prefix":"void PFont","body":["PFont f;",
-    "void setup( ){",
+    "void setup(){",
     "    size(666,666);",    
     "    f = createFont( 字体 ,24 ,true);",
     "}",
@@ -372,30 +372,30 @@
     "    text( 内容 ,x坐标,y坐标);",         
     "}"],"description":"文字结构"}
 ,"void PShape":{"prefix":"void PShape","body":["PShape s;",
-    "void setup( ) {",
+    "void setup() {",
     "    size(666, 666);",
     "    s = createShape(图形, x坐标 , y坐标 , 宽 , 高 );",
     "}",
-    "void draw( ) {",
+    "void draw() {",
     "    shape(s,x坐标 , y坐标 , 宽 , 高  );",
     "}"],"description":"图形结构"}
 ,"void PImage":{"prefix":"void PImage","body":["PImage img;",
-    "void setup( ){",
+    "void setup(){",
     "    size(666,666);",
     "    img = loadImage(图片.jpg);",
     "}",                                  
-    "void draw( ){",
+    "void draw(){",
     "    image(img ,x坐标 ,y坐标);",
     "}"],"description":"图片结构"}
 ,"void PGraphics":{"prefix":"void PGraphics","body":["PGraphics pg;",
-"void setup( ) {",
+"void setup() {",
 "    size(666, 666);",
 "    pg = createGraphics(width, height);",
 "}",
-"void draw( ) {",
-"    pg.beginDraw( );",
+"void draw() {",
+"    pg.begindraw();",
 "    pg.background(0,0);",
-"    pg.endDraw( );",
+"    pg.enddraw();",
 "    image(pg ,x坐标 ,y坐标);",
 "}",
 "void mousePressed( ){",
@@ -403,12 +403,12 @@
 "}"],"description":"绘图结构"}
 ,"void Capture":{"prefix":"void Capture","body":["import processing.video.*;",                       
 "Capture video;",                       
-"void setup( ){",
+"void setup(){",
 "    size(666,666);",  
 "    video = new Capture(this,x坐标,y坐标,帧数);",
 "    video.start();",
 "}",                        
-"void draw( ){",
+"void draw(){",
 "    if(video.available( )) {",
 "        video.read();",
 "    }",
@@ -417,12 +417,12 @@
 ],"description":"摄像头结构"}
 ,"void Movie":{"prefix":"void Movie","body":["import processing.video.*;",
 "Movie video;",                       
-"void setup( ){",
+"void setup(){",
 "    size(666,666);",  
 "    video = new Movie(this, '视频.mp4');",
 "    video.play( );",
 "}",                      
-"void draw( ){",
+"void draw(){",
 "    if(video.available( )){",
 "    video.read( );",
 "    }",                       
@@ -431,46 +431,46 @@
 ,"void AudioIn":{"prefix":"void AudioIn","body":["import processing.sound.*;",
 "AudioIn ai;",
 "Amplitude ampl;",                       
-"void setup( ){",
+"void setup(){",
 "    size(666,666);",       
 "    ai = new AudioIn(this,0);",
 "    ai.play( );",                       
 "    ampl = new Amplitude(this);",
 "    ampl.input(ai);",
 "}",                     
-"void draw( ){",
+"void draw(){",
 "    float v = ampl.analyze( );",                
 "}"         ],"description":"麦克风结构"}
 ,"void SoundFile":{"prefix":"void SoundFile","body":["import processing.sound.*;",                  
 "SoundFile s;",
 "Amplitude ampl;",                           
-"void setup( ){",
+"void setup(){",
 "    size(666,666);",   
 "    s = new SoundFile(this,'音频.mp3');",
 "    s.play();",
 "    ampl = new Amplitude(this);",
 "    ampl.input(s);",
 "}",                            
-"void draw( ){",
+"void draw(){",
 "    float v = ampl.analyze( );",
 "}"     ],"description":"音频结构"}
 ,"void File":{"prefix":"void File","body":["PShape s;",                               
-"void setup( ) {",
+"void setup() {",
 "    size(666, 666);",
 "    s = loadShape('文件.svg');",
 "}",
-"void draw( ) {",
+"void draw() {",
 "    shape(s ,x坐标 ,y坐标  ,宽  ,高  );",
 "}"         
 ],"description":"文件结构"}
 ,"void Class":{"prefix":"void Class","body":["c1[ ] c1c = new c1[ 1 ];",
-"void setup( ){",
+"void setup(){",
 "    size(666, 666);",
 "    for (int i=0; i<c1c.length; i+=1) {",    
 "        c1c[i]= new c1( );",
 "    }",
 "}",
-"void draw( ){",
+"void draw(){",
 "    for (int i=0; i<c1c.length; i+=1) { ", 
 "        c1c[i].c1v1( );",
 "    }",
