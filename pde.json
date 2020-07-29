@@ -345,6 +345,19 @@
 ,"QUARTER_PI":{"prefix":"QUARTER_PI","body":"QUARTER_PI","description":"八分圆弧","scope": "source.pde"}
 ,"TAU":{"prefix":"TAU","body":"TAU","description":"圆弧长","scope": "source.pde"}
 ,"TWO_PI":{"prefix":"TWO_PI","body":"TWO_PI","description":"圆弧长","scope": "source.pde"}
+,"add":{"prefix":"add","body":"add( ${1:向量} );","description":"向量相加","scope": "source.pde"}
+,"sub":{"prefix":"sub","body":"sub( ${1:向量} );","description":"向量相减","scope": "source.pde"}
+,"mult":{"prefix":"mult","body":"mult ${1:标量} );","description":"向量乘法","scope": "source.pde"}
+,"div":{"prefix":"div","body":"div( ${1:标量} );","description":"向量除法","scope": "source.pde"}
+,"setMag":{"prefix":"setMag","body":"setMag( ${ );","description":"设向量长度","scope": "source.pde"}
+,"normalize":{"prefix":"normalize","body":"normalize( );","description":"向量单位化","scope": "source.pde"}
+,"limit":{"prefix":"limit","body":"limit( ${1:变量} );","description":"限向量长度","scope": "source.pde"}
+,"heading2D":{"prefix":"heading2D","body":"heading2D(  );","description":"获向量方向","scope": "source.pde"}
+,"angleBetween":{"prefix":"angleBetween","body":"angleBetween( ${1:向量1},${2:向量2} );","description":"向量夹角","scope": "source.pde"}
+,"dot":{"prefix":"dot","body":"dot( ${1:向量1},${2:向量2} );","description":"向量点乘","scope": "source.pde"}
+,"cross":{"prefix":"cross","body":"cross( ${1:向量1},${2:向量2} );","description":"向量叉乘","scope": "source.pde"}
+,"random2D":{"prefix":"random2D","body":"random2D( );","description":"随机向量二维","scope": "source.pde"}
+,"random3D":{"prefix":"random3D","body":"random3D( );","description":"随机向量三维","scope": "source.pde"}
 
 ,"void P2":{"prefix":"void P2","body":["void setup(){",
     "  size(666,666);",
