@@ -1,0 +1,484 @@
+{
+    "helloworld":{"prefix":"helloworld","body":"helloworld","description":"大家好～！HelloWorld~!","scope": "source.pde"}
+,"catch":{"prefix":"catch","body":"catch( ){ }","description":"捕获","scope": "source.pde"}
+,"class":{"prefix":"class","body":"class","description":"自定义类","scope": "source.pde"}
+,"draw":{"prefix":"draw","body":"void draw( ){ }","description":"每秒60帧","scope": "source.pde"}
+,"exit":{"prefix":"exit","body":"exit( );","description":"关闭窗口","scope": "source.pde"}
+,"extends":{"prefix":"extends","body":"extends","description":"继承他类","scope": "source.pde"}
+,"false":{"prefix":"false","body":"false","description":"假","scope": "source.pde"}
+,"final":{"prefix":"final","body":"final","description":"无法改值","scope": "source.pde"}
+,"implements":{"prefix":"implements","body":"implements","description":"实现接口","scope": "source.pde"}
+,"import":{"prefix":"import","body":"import","description":"导入库","scope": "source.pde"}
+,"loop":{"prefix":"loop","body":"loop( );","description":"继续循环","scope": "source.pde"}
+,"new":{"prefix":"new","body":"new","description":"创建新的","scope": "source.pde"}
+,"noLoop":{"prefix":"noLoop","body":"noLoop( );","description":"停止循环","scope": "source.pde"}
+,"null":{"prefix":"null","body":"null","description":"空值","scope": "source.pde"}
+,"pop":{"prefix":"pop","body":"pop( );","description":"恢复状态","scope": "source.pde"}
+,"popStyle":{"prefix":"popStyle","body":"popStyle( );","description":"恢复状态","scope": "source.pde"}
+,"private":{"prefix":"private","body":"private","description":"局部声明","scope": "source.pde"}
+,"public":{"prefix":"public","body":"public","description":"全局声明","scope": "source.pde"}
+,"push":{"prefix":"push","body":"push( );","description":"保存状态","scope": "source.pde"}
+,"pushStyle":{"prefix":"pushStyle","body":"pushStyle( );","description":"保存状态","scope": "source.pde"}
+,"redraw":{"prefix":"redraw","body":"redraw( );","description":"重新绘制","scope": "source.pde"}
+,"return":{"prefix":"return","body":"return","description":"返回值","scope": "source.pde"}
+,"setLocation":{"prefix":"setLocation","body":"surface.setLocation(${1:x坐标},${2:y坐标});","description":"窗口坐标","scope": "source.pde"}
+,"setResizable":{"prefix":"setResizable","body":"surface.setResizable(true);","description":"窗口宽高","scope": "source.pde"}
+,"setTitle":{"prefix":"setTitle","body":"surface.setTitle( );","description":"窗口标题","scope": "source.pde"}
+,"setup":{"prefix":"setup","body":"void setup( ) { }","description":"初始设置","scope": "source.pde"}
+,"static":{"prefix":"static","body":"static","description":"静态类","scope": "source.pde"}
+,"super":{"prefix":"super","body":"super","description":"超类","scope": "source.pde"}
+,"this":{"prefix":"this","body":"this.","description":"该对象","scope": "source.pde"}
+,"thread":{"prefix":"thread","body":"thread( );","description":"线程","scope": "source.pde"}
+,"true":{"prefix":"true","body":"true","description":"判断为真","scope": "source.pde"}
+,"try":{"prefix":"try","body":"try{ }","description":"尝试","scope": "source.pde"}
+,"void":{"prefix":"void","body":"void v1( ) { }","description":"声明功能","scope": "source.pde"}
+,"cursor":{"prefix":"cursor","body":"cursor( );","description":"显示鼠标","scope": "source.pde"}
+,"delay":{"prefix":"delay","body":"delay(${1:1000});","description":"延迟执行","scope": "source.pde"}
+,"displayDensity":{"prefix":"displayDensity","body":"displayDensity( )","description":"高密屏幕？","scope": "source.pde"}
+,"focused":{"prefix":"focused","body":"focused","description":"活动状态？","scope": "source.pde"}
+,"frameCount":{"prefix":"frameCount","body":"frameCount","description":"记录帧数","scope": "source.pde"}
+,"frameRate()":{"prefix":"frameRate","body":"frameRate(${1:60});","description":"设置帧数","scope": "source.pde"}
+,"frameRate":{"prefix":"frameRate","body":"frameRate","description":"平均帧数","scope": "source.pde"}
+,"fullScreen":{"prefix":"fullScreen","body":"fullScreen( );","description":"全屏","scope": "source.pde"}
+,"height":{"prefix":"height","body":"height","description":"窗口高度","scope": "source.pde"}
+,"noCursor":{"prefix":"noCursor","body":"noCursor( );","description":"隐藏鼠标","scope": "source.pde"}
+,"noSmooth":{"prefix":"noSmooth","body":"noSmooth( );","description":"边缘锯齿","scope": "source.pde"}
+,"pixelDensity":{"prefix":"pixelDensity","body":"pixelDensity( ${1:2} ); ","description":"像素密度","scope": "source.pde"}
+,"pixelHeight":{"prefix":"pixelHeight","body":"pixelHeight","description":"像素高度","scope": "source.pde"}
+,"pixelWidth":{"prefix":"pixelWidth","body":"pixelWidth","description":"像素宽度","scope": "source.pde"}
+,"settings":{"prefix":"settings","body":"settings( );","description":"设置窗口","scope": "source.pde"}
+,"size":{"prefix":"size","body":"size( ${1:666},${2:666}); ","description":"窗口宽高","scope": "source.pde"}
+,"smooth":{"prefix":"smooth","body":"smooth(${1:2} ); ","description":"边缘光滑","scope": "source.pde"}
+,"width":{"prefix":"width","body":"width","description":"窗口宽度","scope": "source.pde"}
+,"boolean1":{"prefix":"boolean","body":"boolean","description":"判断真假","scope": "source.pde"}
+,"byte1":{"prefix":"byte","body":"byte","description":"字节","scope": "source.pde"}
+,"char1":{"prefix":"char","body":"char","description":"字符","scope": "source.pde"}
+,"color1":{"prefix":"color","body":"color","description":"颜色","scope": "source.pde"}
+,"double1":{"prefix":"double","body":"double","description":"2倍小数","scope": "source.pde"}
+,"float1":{"prefix":"float","body":"float","description":"小数","scope": "source.pde"}
+,"int1":{"prefix":"int","body":"int","description":"整数","scope": "source.pde"}
+,"long1":{"prefix":"long","body":"long","description":"2倍整数","scope": "source.pde"}
+,"ArrayList":{"prefix":"ArrayList","body":"ArrayList<${1:数组}>","description":"数组列表","scope": "source.pde"}
+,"FloatDict":{"prefix":"FloatDict","body":"FloatDict","description":"字符串设为小数","scope": "source.pde"}
+,"FloatList":{"prefix":"FloatList","body":"FloatList","description":"小数列表","scope": "source.pde"}
+,"HashMap":{"prefix":"HashMap","body":"HashMap<${1:关键字} , ${2:值}>","description":"字符串代替数字索引","scope": "source.pde"}
+,"IntDict":{"prefix":"IntDict","body":"IntDict","description":"字符串设为整数","scope": "source.pde"}
+,"IntList":{"prefix":"IntList","body":"IntList","description":"整数列表","scope": "source.pde"}
+,"JSONArray":{"prefix":"JSONArray","body":"JSONArray","description":"json数组","scope": "source.pde"}
+,"JSONObject":{"prefix":"JSONObject","body":"JSONObject","description":"json对象","scope": "source.pde"}
+,"Object":{"prefix":"Object","body":"Object","description":"对象","scope": "source.pde"}
+,"String":{"prefix":"String","body":"String","description":"字符串","scope": "source.pde"}
+,"StringDict":{"prefix":"StringDict","body":"StringDict","description":"字符串设为字符串","scope": "source.pde"}
+,"StringList":{"prefix":"StringList","body":"StringList","description":"字符串列表","scope": "source.pde"}
+,"Table":{"prefix":"Table","body":"Table","description":"表格声明","scope": "source.pde"}
+,"TableRow":{"prefix":"TableRow","body":"TableRow","description":"表格行","scope": "source.pde"}
+,"XML":{"prefix":"XML","body":"XML","description":"xml声明","scope": "source.pde"}
+,"binary":{"prefix":"binary","body":"binary( ${1:变量} );","description":"转二进制","scope": "source.pde"}
+,"boolean":{"prefix":"boolean","body":"boolean( ${1:变量} );","description":"转为布尔","scope": "source.pde"}
+,"byte":{"prefix":"byte","body":"byte( ${1:变量});","description":"转为字节","scope": "source.pde"}
+,"char":{"prefix":"char","body":"char( ${1:变量});","description":"转为字符","scope": "source.pde"}
+,"float":{"prefix":"float","body":"float(${1:变量} );","description":"转为小数","scope": "source.pde"}
+,"hex":{"prefix":"hex","body":"hex( ${1:变量} );","description":"转十六进制","scope": "source.pde"}
+,"int":{"prefix":"int","body":"int(${1:变量} );","description":"转为整数","scope": "source.pde"}
+,"str":{"prefix":"str","body":"str( ${1:变量} );","description":"转为字符串","scope": "source.pde"}
+,"unbinary":{"prefix":"unbinary","body":"unbinary(${1:变量});","description":"转为整数","scope": "source.pde"}
+,"unhex":{"prefix":"unhex","body":"unhex( ${1:变量});","description":"转为整数","scope": "source.pde"}
+,"join":{"prefix":"join","body":"join(${1:数组},${2:分隔符} );","description":"字符串集","scope": "source.pde"}
+,"match":{"prefix":"match","body":"match(${1:要搜索字符}, ${2:搜索方式} );","description":"正则表达","scope": "source.pde"}
+,"matchAll":{"prefix":"matchAll","body":"matchAll( ${1:要搜索字符}, ${2:搜索方式});","description":"正则表达","scope": "source.pde"}
+,"nf":{"prefix":"nf","body":"nf(${1:数字}, ${2:0左补}，${3:0右补} );","description":"0补位03.30","scope": "source.pde"}
+,"nfc":{"prefix":"nfc","body":"nfc(${1:数字}, ${2:右余位} );","description":"千位分割","scope": "source.pde"}
+,"nfp":{"prefix":"nfp","body":"nfp(${1:符号},${2:0左补} );","description":"正负符号","scope": "source.pde"}
+,"nfs":{"prefix":"nfs","body":"nfs( ${1:对齐},${2:0左补});","description":"符号对齐","scope": "source.pde"}
+,"split":{"prefix":"split","body":"split( ${1:变量},${2:分割符号});","description":"变量分割","scope": "source.pde"}
+,"splitTokens":{"prefix":"splitTokens","body":"splitTokens( ${1:变量} );","description":"空格分割","scope": "source.pde"}
+,"trim":{"prefix":"trim","body":"trim( ${1:变量});","description":"首尾去空","scope": "source.pde"}
+,"append":{"prefix":"append","body":"append(${1:数组}, ${2:添加值} );","description":"数组末尾插入","scope": "source.pde"}
+,"arrayCopy":{"prefix":"arrayCopy","body":"arrayCopy(${1:数组1},${2:数组2} );","description":"数组复制","scope": "source.pde"}
+,"concat":{"prefix":"concat","body":"concat( ${1:数组1},${2:数组2});","description":"数组连接","scope": "source.pde"}
+,"expand":{"prefix":"expand","body":"expand( ${1:数组},${2:倍增});","description":"数组倍增","scope": "source.pde"}
+,"reverse":{"prefix":"reverse","body":"reverse( ${1:数组});","description":"数组逆序","scope": "source.pde"}
+,"shorten":{"prefix":"shorten","body":"shorten( ${1:数组});","description":"数组末尾减少","scope": "source.pde"}
+,"sort":{"prefix":"sort","body":"sort( ${1:数组});","description":"数组排序","scope": "source.pde"}
+,"splice":{"prefix":"splice","body":"splice( ${1:数组},添${2:加值},${3:插入序号});","description":"数组指定插入","scope": "source.pde"}
+,"subset":{"prefix":"subset","body":"subset(${1:数组},${2:开始位置},${3:计数} );","description":"数组提取","scope": "source.pde"}
+,"for":{"prefix":"for","body":"for(${1:起始值},${2:结束值},${3:递值}){ }","description":"循环","scope": "source.pde"}
+,"while":{"prefix":"while","body":"while( ${1:结束值} ){}","description":"循环(不推荐)","scope": "source.pde"}
+,"break":{"prefix":"break","body":"break","description":"跳出","scope": "source.pde"}
+,"case":{"prefix":"case","body":"case ${1:变量} :","description":"开关条件","scope": "source.pde"}
+,"continue":{"prefix":"continue","body":"continue","description":"迭代跳跃","scope": "source.pde"}
+,"default":{"prefix":"default","body":"default","description":"默认条件","scope": "source.pde"}
+,"else":{"prefix":"else","body":"else{ }","description":"否则","scope": "source.pde"}
+,"if":{"prefix":"if","body":"if( ){ }","description":"如果","scope": "source.pde"}
+,"switch":{"prefix":"switch","body":"switch( ${1:变量} ){ }","description":"开关","scope": "source.pde"}
+,"createShape":{"prefix":"createShape","body":"createShape( );","description":"创建形状","scope": "source.pde"}
+,"loadShape":{"prefix":"loadShape","body":"loadShape( ${1:素材} );","description":"加载形状","scope": "source.pde"}
+,"PShape":{"prefix":"PShape","body":"PShape ps ;","description":"形状声明","scope": "source.pde"}
+,"arc":{"prefix":"arc","body":"arc(${1:x坐标} ,${2:y坐标},${3:宽} ,${4:高} ,${5:开始弧度} ,${6:结束弧度} ,${7:模式} );","description":"弧线","scope": "source.pde"}
+,"circle":{"prefix":"circle","body":"circle( ${1:x坐标} ,${2:y坐标},${3:半径} );","description":"圆形","scope": "source.pde"}
+,"ellipse":{"prefix":"ellipse","body":"ellipse( ${1:x坐标} ,${2:y坐标},${3:宽} ,${4:高});","description":"椭圆","scope": "source.pde"}
+,"line":{"prefix":"line","body":"line( ${1:x1坐标} ,${2:y1坐标},${3:x2坐标} ,${4:y2坐标} );","description":"线条","scope": "source.pde"}
+,"point":{"prefix":"point","body":"point${1:x坐标} ,${2:y坐标} );","description":"点","scope": "source.pde"}
+,"quad":{"prefix":"quad","body":"quad( ${1:x1坐标} ,${2:y1坐标},${3:x2坐标} ,${4:y2坐标} ,${5:x3坐标} ,${6:y3坐标},${7:x4坐标} ,${8:y4坐标} );","description":"四边形","scope": "source.pde"}
+,"rect":{"prefix":"rect","body":"rect( ${1:x坐标} ,${2:y坐标},${3:宽} ,${4:高},${5:x圆角});","description":"矩形","scope": "source.pde"}
+,"square":{"prefix":"square","body":"square(   ${1:x坐标} ,${2:y坐标},${3:半径});","description":"正方形","scope": "source.pde"}
+,"triangle":{"prefix":"triangle","body":"triangle( ${1:x1坐标} ,${2:y1坐标},${3:x2坐标} ,${4:y2坐标} ,${5:x3坐标} ,${6:y3坐标} );","description":"三角形","scope": "source.pde"}
+,"bezier":{"prefix":"bezier","body":"bezier( ${1:x1坐标} ,${2:y1坐标},${3:x2控标} ,${4:y2控标} ,${5:x3控标} ,${6:y3控标},${7:x4坐标} ,${8:y4坐标} );","description":"贝塞尔曲线","scope": "source.pde"}
+,"bezierDetail":{"prefix":"bezierDetail","body":"bezierDetail(  ${1:20} );","description":"贝塞尔细节","scope": "source.pde"}
+,"bezierPoint":{"prefix":"bezierPoint","body":"bezierPoint( ${1:x1坐标} ,${2:x2控标} ,${3:x3控标} ,${4:x4坐标} ,${5:范围0～1}  );","description":"贝塞尔顶点","scope": "source.pde"}
+,"bezierTangent":{"prefix":"bezierTangent","body":"bezierTangent( ${1:x1坐标} ,${2:x2控标} ,${3:x3控标} ,${4:x4坐标} ,${5:范围0～1} );","description":"贝塞尔切线","scope": "source.pde"}
+,"curve":{"prefix":"curve","body":"curve(${1:x1坐标} ,${2:y1坐标},${3:x2坐标} ,${4:y2坐标} ,${5:x3坐标} ,${6:y3坐标},${7:x4坐标} ,${8:y4坐标} );","description":"曲线","scope": "source.pde"}
+,"curveDetail":{"prefix":"curveDetail","body":"curveDetail( ${1:20} );","description":"曲线细节","scope": "source.pde"}
+,"curvePoint":{"prefix":"curvePoint","body":"curvePoint( ${1:x1坐标} ,${2:x2控标} ,${3:x3控标} ,${4:x4坐标} ,${5:范围0～1} );","description":"曲线顶点","scope": "source.pde"}
+,"curveTangent":{"prefix":"curveTangent","body":"curveTangent( ${1:x1坐标} ,${2:x2控标} ,${3:x3控标} ,${4:x4坐标} ,${5:范围0～1} );","description":"曲线切线","scope": "source.pde"}
+,"curveTightness":{"prefix":"curveTightness","body":"curveTightness( ${1:范围-5～5});","description":"曲线密度","scope": "source.pde"}
+,"box":{"prefix":"box","body":"box(${1:x轴宽} ,${2:y轴高} ,${3:z轴厚} );","description":"三维方体","scope": "source.pde"}
+,"sphere":{"prefix":"sphere","body":"sphere(${1:三维半径}  );","description":"三维球体","scope": "source.pde"}
+,"sphereDetail":{"prefix":"sphereDetail","body":"sphereDetail( ${1:30}  );","description":"球体细节","scope": "source.pde"}
+,"ellipseMode":{"prefix":"ellipseMode","body":"ellipseMode( ${1: CENTER});","description":"椭圆模式","scope": "source.pde"}
+,"rectMode":{"prefix":"rectMode","body":"rectMode( ${1:CENTER});","description":"矩形模式","scope": "source.pde"}
+,"strokeCap":{"prefix":"strokeCap","body":"strokeCap(${1:ROUND}  );","description":"线尾圆角","scope": "source.pde"}
+,"strokeJoin":{"prefix":"strokeJoin","body":"strokeJoin(${1:MITER}  );","description":"连线圆角","scope": "source.pde"}
+,"strokeWeight":{"prefix":"strokeWeight","body":"strokeWeight( ${1:1} );","description":"线宽","scope": "source.pde"}
+,"beginContour":{"prefix":"beginContour","body":"beginContour( );","description":"创建负形","scope": "source.pde"}
+,"beginShape":{"prefix":"beginShape","body":"beginShape( ${1:POINTS} );","description":"创建形状","scope": "source.pde"}
+,"bezierVertex":{"prefix":"bezierVertex","body":"bezierVertex(${1:x2坐标} ,${2:y2坐标} ,${3:x3坐标} ,${4:y3坐标},${5:x4坐标} ,${6:y4坐标}  );","description":"贝塞尔顶点","scope": "source.pde"}
+,"curveVertex":{"prefix":"curveVertex","body":"curveVertex(${1:x1坐标} ,${2:x2控标}  );","description":"曲线顶点","scope": "source.pde"}
+,"endContour":{"prefix":"endContour","body":"endContour( );","description":"负形完毕","scope": "source.pde"}
+,"endShape":{"prefix":"endShape","body":"endShape( ${1:CLOSE} );","description":"形状完毕","scope": "source.pde"}
+,"quadraticVertex":{"prefix":"quadraticVertex","body":"quadraticVertex( ${1:x控标} ,${2:y控标} ,${3:x3坐标} ,${4:y3坐标});","description":"平方顶点","scope": "source.pde"}
+,"vertex":{"prefix":"vertex","body":"vertex( ${1:x坐标} ,${2:y坐标} ,${3:u坐标} ,${4:v坐标} );","description":"顶点","scope": "source.pde"}
+,"shape":{"prefix":"shape","body":"shape( ${1:形状} ,${2:x坐标} ,${3:y坐标} ,${4:宽},${5:高} );","description":"形状","scope": "source.pde"}
+,"shapeMode":{"prefix":"shapeMode","body":"shapeMode(  ${1:CENTER});","description":"形状模式","scope": "source.pde"}
+,"mouseButton":{"prefix":"mouseButton","body":"mouseButton","description":"鼠标按钮","scope": "source.pde"}
+,"mouseClicked":{"prefix":"mouseClicked","body":"mouseClicked( );","description":"鼠标按下","scope": "source.pde"}
+,"mouseDragged":{"prefix":"mouseDragged","body":"mouseDragged( );","description":"鼠标拖拽","scope": "source.pde"}
+,"mouseMoved":{"prefix":"mouseMoved","body":"mouseMoved( );","description":"鼠标移动","scope": "source.pde"}
+,"mousePressed()":{"prefix":"mousePressed","body":"mousePressed( );","description":"鼠标点击","scope": "source.pde"}
+,"mousePressed":{"prefix":"mousePressed","body":"mousePressed","description":"鼠标点击","scope": "source.pde"}
+,"mouseReleased":{"prefix":"mouseReleased","body":"mouseReleased( );","description":"鼠标松开","scope": "source.pde"}
+,"mouseWheel":{"prefix":"mouseWheel","body":"mouseWheel( );","description":"鼠标滚轮","scope": "source.pde"}
+,"mouseX":{"prefix":"mouseX","body":"mouseX","description":"鼠标x坐标","scope": "source.pde"}
+,"mouseY":{"prefix":"mouseY","body":"mouseY","description":"鼠标y坐标","scope": "source.pde"}
+,"pmouseX":{"prefix":"pmouseX","body":"pmouseX","description":"鼠标前x坐标","scope": "source.pde"}
+,"pmouseY":{"prefix":"pmouseY","body":"pmouseY","description":"鼠标前y坐标","scope": "source.pde"}
+,"key":{"prefix":"key","body":"key","description":"键","scope": "source.pde"}
+,"keyCode":{"prefix":"keyCode","body":"keyCode","description":"键盘代码","scope": "source.pde"}
+,"keyPressed()":{"prefix":"keyPressed","body":"keyPressed( )","description":"键盘按下","scope": "source.pde"}
+,"keyPressed":{"prefix":"keyPressed","body":"keyPressed","description":"键盘按下","scope": "source.pde"}
+,"keyReleased":{"prefix":"keyReleased","body":"keyReleased( )","description":"键盘松开","scope": "source.pde"}
+,"keyTyped":{"prefix":"keyTyped","body":"keyTyped( )","description":"键盘类型","scope": "source.pde"}
+,"BufferedReader":{"prefix":"BufferedReader","body":"BufferedReader","description":"缓冲读取","scope": "source.pde"}
+,"createInput":{"prefix":"createInput","body":"createInput(  ${1:文件});","description":"创建输入","scope": "source.pde"}
+,"createReader":{"prefix":"createReader","body":"createReader(  ${1:文件});","description":"创建读取","scope": "source.pde"}
+,"launch":{"prefix":"launch","body":"launch(  ${1:程序});","description":"启动","scope": "source.pde"}
+,"loadBytes":{"prefix":"loadBytes","body":"loadBytes( ${1:文件} );","description":"加载字节","scope": "source.pde"}
+,"loadJSONArray":{"prefix":"loadJSONArray","body":"loadJSONArray( ${1:文件.json} );","description":"加载json数组","scope": "source.pde"}
+,"loadJSONObject":{"prefix":"loadJSONObject","body":"loadJSONObject( ${1:文件.json} );","description":"加载json对象","scope": "source.pde"}
+,"loadStrings":{"prefix":"loadStrings","body":"loadStrings( ${1:文件.txt} );","description":"加载字符串","scope": "source.pde"}
+,"loadTable":{"prefix":"loadTable","body":"loadTable(${1:文件.csv},${2: 选项 } );","description":"加载表格","scope": "source.pde"}
+,"loadXML":{"prefix":"loadXML","body":"loadXML(${1:文件.xml} );","description":"加载xml","scope": "source.pde"}
+,"parseJSONArray":{"prefix":"parseJSONArray","body":"parseJSONArray( ${1:变量});","description":"解析json数组","scope": "source.pde"}
+,"parseJSONObject":{"prefix":"parseJSONObject","body":"parseJSONObject( ${1:变量});","description":"解析json对象","scope": "source.pde"}
+,"parseXML":{"prefix":"parseXML","body":"parseXML(${1:变量} );","description":"解析xml","scope": "source.pde"}
+,"selectFolder":{"prefix":"selectFolder","body":"selectFolder(${1:提示},${2:回调} );","description":"选择文件","scope": "source.pde"}
+,"selectInput":{"prefix":"selectInput","body":"selectInput( ${1:提示},${2:回调});","description":"选择输入","scope": "source.pde"}
+,"day":{"prefix":"day","body":"day( );","description":"天数","scope": "source.pde"}
+,"hour":{"prefix":"hour","body":"hour( );","description":"小时","scope": "source.pde"}
+,"millis":{"prefix":"millis","body":"millis( );","description":"毫秒","scope": "source.pde"}
+,"minute":{"prefix":"minute","body":"minute( );","description":"分钟","scope": "source.pde"}
+,"month":{"prefix":"month","body":"month( );","description":"月份","scope": "source.pde"}
+,"second":{"prefix":"second","body":"second( );","description":"秒","scope": "source.pde"}
+,"year":{"prefix":"year","body":"year( );","description":"年份","scope": "source.pde"}
+,"print":{"prefix":"print","body":"print( ${1:连续打印});","description":"打印连续","scope": "source.pde"}
+,"printArray":{"prefix":"printArray","body":"printArray(${1:数组} );","description":"打印数组","scope": "source.pde"}
+,"println":{"prefix":"println","body":"println(${1:换行打印} );","description":"打印换行","scope": "source.pde"}
+,"save":{"prefix":"save","body":"save(  ${1:单图});","description":"保存单图","scope": "source.pde"}
+,"saveFrame":{"prefix":"saveFrame","body":"saveFrame( ${1:多图} );","description":"保存连图","scope": "source.pde"}
+,"beginRaw":{"prefix":"beginRaw","body":"beginRaw(  ${1:PDF}, ${2:文件.pdf});","description":"开始生成pdf","scope": "source.pde"}
+,"beginRecord":{"prefix":"beginRecord","body":"beginRecord( ${1:PDF}, ${2:文件.pdf});","description":"开始记录pdf","scope": "source.pde"}
+,"createOutput":{"prefix":"createOutput","body":"createOutput(${1:文件} );","description":"创建输出","scope": "source.pde"}
+,"createWriter":{"prefix":"createWriter","body":"createWriter( ${1:文件.txt});","description":"创建写入","scope": "source.pde"}
+,"endRaw":{"prefix":"endRaw","body":"endRaw( );","description":"结束生成pdf","scope": "source.pde"}
+,"endRecord":{"prefix":"endRecord","body":"endRecord( );","description":"结束记录pdf","scope": "source.pde"}
+,"PrintWriter":{"prefix":"PrintWriter","body":"PrintWriter pw;","description":"打印写入","scope": "source.pde"}
+,"saveBytes":{"prefix":"saveBytes","body":"saveBytes( ${1:文件},${2:数组});","description":"保存字节","scope": "source.pde"}
+,"saveJSONArray":{"prefix":"saveJSONArray","body":"saveJSONArray(${1:json数组},${2:文件},${3:选项} );","description":"保存json数组","scope": "source.pde"}
+,"saveJSONObject":{"prefix":"saveJSONObject","body":"saveJSONObject(${1:json数组},${2:文件},${3:选项}  );","description":"保存json对象","scope": "source.pde"}
+,"saveStream":{"prefix":"saveStream","body":"saveStream(${1:目标},${2:资源} );","description":"保存流","scope": "source.pde"}
+,"saveStrings":{"prefix":"saveStrings","body":"saveStrings( ${1:文件.txt},${2:数组} );","description":"保存字符串","scope": "source.pde"}
+,"saveTable":{"prefix":"saveTable","body":"saveTable( ${1:表},${2:文件},${3:选项} );","description":"保存表格","scope": "source.pde"}
+,"saveXML":{"prefix":"saveXML","body":"saveXML( ${1:xml},${2:文件.xml}  );","description":"保存xml","scope": "source.pde"}
+,"selectOutput":{"prefix":"selectOutput","body":"selectOutput(${1:提示},${2:回调} );","description":"选择输出","scope": "source.pde"}
+,"applyMatrix":{"prefix":"applyMatrix","body":"applyMatrix( );","description":"应用矩阵","scope": "source.pde"}
+,"popMatrix":{"prefix":"popMatrix","body":"popMatrix( );","description":"恢复矩阵","scope": "source.pde"}
+,"printMatrix":{"prefix":"printMatrix","body":"printMatrix( );","description":"打印矩阵","scope": "source.pde"}
+,"pushMatrix":{"prefix":"pushMatrix","body":"pushMatrix( );","description":"保存矩阵","scope": "source.pde"}
+,"resetMatrix":{"prefix":"resetMatrix","body":"resetMatrix( );","description":"重制矩阵","scope": "source.pde"}
+,"rotate":{"prefix":"rotate","body":"rotate( ${1: 1*PI/180});","description":"旋转弧度","scope": "source.pde"}
+,"rotateX":{"prefix":"rotateX","body":"rotateX( ${1: 1*PI/180});","description":"旋转弧度x轴","scope": "source.pde"}
+,"rotateY":{"prefix":"rotateY","body":"rotateY(${1: 1*PI/180} );","description":"旋转弧度y轴","scope": "source.pde"}
+,"rotateZ":{"prefix":"rotateZ","body":"rotateZ( ${1: 1*PI/180});","description":"旋转弧度z轴","scope": "source.pde"}
+,"scale":{"prefix":"scale","body":"scale( ${1: 缩放});","description":"缩放","scope": "source.pde"}
+,"shearX":{"prefix":"shearX","body":"shearX(${1: 1*PI/180} );","description":"剪切x轴","scope": "source.pde"}
+,"shearY":{"prefix":"shearY","body":"shearY( ${1: 1*PI/180});","description":"剪切y轴","scope": "source.pde"}
+,"translate":{"prefix":"translate","body":"translate( ${1: x坐标},${2: y坐标});","description":"原点移动","scope": "source.pde"}
+,"ambientLight":{"prefix":"ambientLight","body":"ambientLight(${1:红色} ,${2:绿色} ,${3:蓝色} ,${4:x坐标},${5:y坐标} ,${6:z坐标}  );","description":"环境光","scope": "source.pde"}
+,"directionalLight":{"prefix":"directionalLight","body":"directionalLight( ${1:红色} ,${2:绿色} ,${3:蓝色} ,${4:x轴向},${5:y轴向} ,${6:z轴向} );","description":"定向光","scope": "source.pde"}
+,"lightFalloff":{"prefix":"lightFalloff","body":"lightFalloff(${1:不变} ,${2:衰减} ,${3:二次衰减} );","description":"灯光衰减","scope": "source.pde"}
+,"lights":{"prefix":"lights","body":"lights( );","description":"灯光衰减","scope": "source.pde"}
+,"lightSpecular":{"prefix":"lightSpecular","body":"lightSpecular(${1:红色} ,${2:绿色} ,${3:蓝色}  );","description":"镜面灯光","scope": "source.pde"}
+,"noLights":{"prefix":"noLights","body":"noLights( );","description":"隐藏光","scope": "source.pde"}
+,"normal":{"prefix":"normal","body":"normal( ${1:x轴向} ,${2:y轴向} ,${3:z轴向}  );","description":"正常","scope": "source.pde"}
+,"pointLight":{"prefix":"pointLight","body":"pointLight(  ${1:红色} ,${2:绿色} ,${3:蓝色} ,${4:x轴向},${5:y轴向} ,${6:z轴向} );","description":"点光","scope": "source.pde"}
+,"spotLight":{"prefix":"spotLight","body":"spotLight( ${1:红色} ,${2:绿色} ,${3:蓝色} ,${4:x轴向},${5:y轴向} ,${6:z轴向} , ${7:x轴向} ,${8:y轴向} ,${9:z轴向} ,${10:角度},${11:浓度}  );","description":"射光","scope": "source.pde"}
+,"beginCamera":{"prefix":"beginCamera","body":"beginCamera(${1:镜头x} ,${2:镜头y} ,${3:镜头z} ,${4:x中心x},${5:y中心y} ,${6:中心z} , ${7:x轴向} ,${8:y轴向} ,${9:z轴向} );","description":"开始镜头","scope": "source.pde"}
+,"camera":{"prefix":"camera","body":"camera( ${1:镜头x} ,${2:镜头y} ,${3:镜头z} ,${4:x中心x},${5:y中心y} ,${6:中心z} , ${7:x轴向} ,${8:y轴向} ,${9:z轴向});","description":"镜头","scope": "source.pde"}
+,"endCamera":{"prefix":"endCamera","body":"endCamera( );","description":"结束镜头","scope": "source.pde"}
+,"frustum":{"prefix":"frustum","body":"frustum(${1:坐视} ,${2:右视} ,${3:底视} ,${4:顶视},${5:近视} ,${6:远视} );","description":"视角","scope": "source.pde"}
+,"ortho":{"prefix":"ortho","body":"ortho(${1:坐视} ,${2:右视} ,${3:底视} ,${4:顶视},${5:近视} ,${6:远视}  );","description":"领位","scope": "source.pde"}
+,"perspective":{"prefix":"perspective","body":"perspective(${1:垂直视} ,${2:宽高比} ,${3:近视} ,${4:远视});","description":"透视","scope": "source.pde"}
+,"printCamera":{"prefix":"printCamera","body":"printCamera( );","description":"打印镜头","scope": "source.pde"}
+,"printProjection":{"prefix":"printProjection","body":"printProjection( );","description":"打印投影","scope": "source.pde"}
+,"modelX":{"prefix":"modelX","body":"modelX(${1:x坐标} ,${2:y坐标} ,${3:z坐标}  );","description":"模型x坐标","scope": "source.pde"}
+,"modelY":{"prefix":"modelY","body":"modelY( ${1:x坐标} ,${2:y坐标} ,${3:z坐标});","description":"模型y坐标","scope": "source.pde"}
+,"modelZ":{"prefix":"modelZ","body":"modelZ( ${1:x坐标} ,${2:y坐标} ,${3:z坐标});","description":"模型z坐标","scope": "source.pde"}
+,"screenX":{"prefix":"screenX","body":"screenX(${1:x坐标} ,${2:y坐标} ,${3:z坐标} );","description":"屏幕x坐标","scope": "source.pde"}
+,"screenY":{"prefix":"screenY","body":"screenY(${1:x坐标} ,${2:y坐标} ,${3:z坐标} );","description":"屏幕y坐标","scope": "source.pde"}
+,"screenZ":{"prefix":"screenZ","body":"screenZ( ${1:x坐标} ,${2:y坐标} ,${3:z坐标});","description":"屏幕z坐标","scope": "source.pde"}
+,"ambient":{"prefix":"ambient","body":"ambient( ${1:红色} ,${2:绿色} ,${3:蓝色});","description":"环境材质","scope": "source.pde"}
+,"emissive":{"prefix":"emissive","body":"emissive(${1:红色} ,${2:绿色} ,${3:蓝色} );","description":"放射材质","scope": "source.pde"}
+,"shininess":{"prefix":"shininess","body":"shininess(${1:1.0} );","description":"发光材质","scope": "source.pde"}
+,"specular":{"prefix":"specular","body":"specular( ${1:红色} ,${2:绿色} ,${3:蓝色});","description":"高光材质","scope": "source.pde"}
+,"background":{"prefix":"background","body":"background( ${1:255} ,${2:255} ,${3:255},${4:100} );","description":"背景色","scope": "source.pde"}
+,"clear":{"prefix":"clear","body":"clear( );","description":"清除","scope": "source.pde"}
+,"colorMode":{"prefix":"colorMode","body":"colorMode(${1:HSB} ,${2:360} ,${3:100},${4:100} ,${5:100}  );","description":"颜色模式","scope": "source.pde"}
+,"fill":{"prefix":"fill","body":"fill( ${1:255} ,${2:255} ,${3:255},${4:100} );","description":"填充色","scope": "source.pde"}
+,"noFill":{"prefix":"noFill","body":"noFill( );","description":"隐藏填充色","scope": "source.pde"}
+,"noStroke":{"prefix":"noStroke","body":"noStroke( );","description":"隐藏轮廓色","scope": "source.pde"}
+,"stroke":{"prefix":"stroke","body":"stroke( ${1:255} ,${2:255} ,${3:255},${4:100}  );","description":"轮廓色","scope": "source.pde"}
+,"alpha":{"prefix":"alpha","body":"alpha( ${1:变量}  );","description":"提取透明度","scope": "source.pde"}
+,"blue":{"prefix":"blue","body":"blue(${1:变量}  );","description":"提取蓝色","scope": "source.pde"}
+,"brightness":{"prefix":"brightness","body":"brightness(${1:变量}  );","description":"提取亮度","scope": "source.pde"}
+,"color":{"prefix":"color","body":"color(${1:255} ,${2:255} ,${3:255},${4:100}  );","description":"提取颜色","scope": "source.pde"}
+,"green":{"prefix":"green","body":"green(${1:变量} );","description":"提取绿色","scope": "source.pde"}
+,"hue":{"prefix":"hue","body":"hue(${1:变量} );","description":"提取色调","scope": "source.pde"}
+,"lerpColor":{"prefix":"lerpColor","body":"lerpColor(${1:颜色1} ,${2:颜色2} ,${3:区间0～1} );","description":"提取区间色","scope": "source.pde"}
+,"red":{"prefix":"red","body":"red(${1:变量}  );","description":"提取红色","scope": "source.pde"}
+,"saturation":{"prefix":"saturation","body":"saturation(${1:变量}  );","description":"提取饱和度","scope": "source.pde"}
+,"createImage":{"prefix":"createImage","body":"createImage(${1:宽} ,${2:高} ,${3:RGB}  );","description":"创建图片","scope": "source.pde"}
+,"PImage":{"prefix":"PImage","body":"PImage","description":"图片声明","scope": "source.pde"}
+,"image":{"prefix":"image","body":"image( ${1:变量} ,${2:x坐标} ,${3:y坐标},${4:宽} ,${5:高}  );","description":"图片","scope": "source.pde"}
+,"imageMode":{"prefix":"imageMode","body":"imageMode( ${1:CENTER});","description":"图片模式","scope": "source.pde"}
+,"loadImage":{"prefix":"loadImage","body":"loadImage( ${1:文件});","description":"加载图片","scope": "source.pde"}
+,"noTint":{"prefix":"noTint","body":"noTint( );","description":"隐藏色调","scope": "source.pde"}
+,"requestImage":{"prefix":"requestImage","body":"requestImage( ${1:文件});","description":"索取图片","scope": "source.pde"}
+,"tint":{"prefix":"tint","body":"tint(${1:255} ,${2:255} ,${3:255},${4:100} );","description":"色调","scope": "source.pde"}
+,"texture":{"prefix":"texture","body":"texture( ${1:文件});","description":"贴图","scope": "source.pde"}
+,"textureMode":{"prefix":"textureMode","body":"textureMode(${1:IMAGE} );","description":"贴图模式","scope": "source.pde"}
+,"textureWrap":{"prefix":"textureWrap","body":"textureWrap(${1:CLAMP} );","description":"贴图包装","scope": "source.pde"}
+,"blend":{"prefix":"blend","body":"blend(${1:文件},${2:源x},${3:源y},${4源宽},${5:源高},${6:标x},${7:标y},${8:标宽},${9:标高},${10:模式} );","description":"混合","scope": "source.pde"}
+,"copy":{"prefix":"copy","body":"copy(${1:文件},${2:源x},${3:源y},${4源宽},${5:源高},${6:标x},${7:标y},${8:标宽},${9:标高} );","description":"复制","scope": "source.pde"}
+,"filter":{"prefix":"filter","body":"filter(${1:阀值},${2:参数});","description":"过滤","scope": "source.pde"}
+,"get":{"prefix":"get","body":"get(${1:x坐标},${2:y坐标}, ${3:宽},${4:高});","description":"获取","scope": "source.pde"}
+,"loadPixels":{"prefix":"loadPixels","body":"loadPixels( );","description":"加载像素","scope": "source.pde"}
+,"pixels[]":{"prefix":"pixels[]","body":"pixels[${1:x变量}]","description":"像素数组","scope": "source.pde"}
+,"set":{"prefix":"set","body":"set( ${1:x坐标},${2:y坐标}, ${3:图片});","description":"设置","scope": "source.pde"}
+,"updatePixels":{"prefix":"updatePixels","body":"updatePixels( );","description":"更新像素","scope": "source.pde"}
+,"blendMode":{"prefix":"blendMode","body":"blendMode( ${1:ADD} );","description":"混合模式","scope": "source.pde"}
+,"clip":{"prefix":"clip","body":"clip(${1:x坐标},${2:y坐标}, ${3:宽},${4:高} );","description":"区域显示","scope": "source.pde"}
+,"createGraphics":{"prefix":"createGraphics","body":"createGraphics(${1:x宽},${2:y高}, ${3:模式},${4:路径} );","description":"创建画区","scope": "source.pde"}
+,"hint":{"prefix":"hint","body":"hint( ${1:模式});","description":"示意","scope": "source.pde"}
+,"noClip":{"prefix":"noClip","body":"noClip( );","description":"隐藏区域","scope": "source.pde"}
+,"PGraphics":{"prefix":"PGraphics","body":"PGraphics","description":"画区声明","scope": "source.pde"}
+,"loadShader":{"prefix":"loadShader","body":"loadShader(  ${1:路径});","description":"加载着色","scope": "source.pde"}
+,"PShader":{"prefix":"PShader","body":"PShader","description":"声明着色","scope": "source.pde"}
+,"resetShader":{"prefix":"resetShader","body":"resetShader( );","description":"重制着色","scope": "source.pde"}
+,"shader":{"prefix":"shader","body":"shader(  ${1:着色器});","description":"着色","scope": "source.pde"}
+,"PFont":{"prefix":"PFont","body":"PFont","description":"字体声明","scope": "source.pde"}
+,"createFont":{"prefix":"createFont","body":"createFont(  ${1:字体}, ${2:大小}, ${3:锯齿});","description":"创建字体","scope": "source.pde"}
+,"loadFont":{"prefix":"loadFont","body":"loadFont(  ${1:字体});","description":"加载字体","scope": "source.pde"}
+,"text":{"prefix":"text","body":"text(  ${1:内容}, ${2:x坐标}, ${3:y坐标});","description":"文本","scope": "source.pde"}
+,"textFont":{"prefix":"textFont","body":"textFont(  ${1:变量});","description":"文本字体","scope": "source.pde"}
+,"textAlign":{"prefix":"textAlign","body":"textAlign(  ${1:CENTER});","description":"文本对齐","scope": "source.pde"}
+,"textLeading":{"prefix":"textLeading","body":"textLeading(  ${1:行间距});","description":"文本间距","scope": "source.pde"}
+,"textMode":{"prefix":"textMode","body":"textMode( ${1:MODEL} );","description":"文本模式","scope": "source.pde"}
+,"textSize":{"prefix":"textSize","body":"textSize(  ${1:大小});","description":"文本尺寸","scope": "source.pde"}
+,"textWidth":{"prefix":"textWidth","body":"textWidth( ${1:变量} );","description":"文本宽度","scope": "source.pde"}
+,"textAscent":{"prefix":"textAscent","body":"textAscent( );","description":"文本顶部","scope": "source.pde"}
+,"textDescent":{"prefix":"textDescent","body":"textDescent( );","description":"文本底部","scope": "source.pde"}
+,"PVector":{"prefix":"PVector","body":"PVector","description":"向量声明","scope": "source.pde"}
+,"abs":{"prefix":"abs","body":"abs( ${1:绝对值} );","description":"绝对值","scope": "source.pde"}
+,"ceil":{"prefix":"ceil","body":"ceil(  ${1:变量});","description":"类舍四升五","scope": "source.pde"}
+,"constrain":{"prefix":"constrain","body":"constrain( ${1:约束值}, ${2:最小值}, ${3:最大值} );","description":"约束","scope": "source.pde"}
+,"dist":{"prefix":"dist","body":"dist( ${1:x1坐标}, ${2:y1坐标}, ${3:x2坐标}, ${4:x3坐标} );","description":"两点距离","scope": "source.pde"}
+,"exp":{"prefix":"exp","body":"exp(  ${1:1.0});","description":"欧拉常数","scope": "source.pde"}
+,"floor":{"prefix":"floor","body":"floor( ${1:四舍五入} );","description":"类舍五降四","scope": "source.pde"}
+,"lerp":{"prefix":"lerp","body":"lerp(  ${1:开始值}, ${2:结束值}, ${3:区间0～1});","description":"勒普","scope": "source.pde"}
+,"log":{"prefix":"log","body":"log( ${1:大于0} );","description":"自然对数","scope": "source.pde"}
+,"mag":{"prefix":"mag","body":"mag( ${1:参数1}, ${2:参数2}, ${3:参数3} );","description":"向量大小","scope": "source.pde"}
+,"map":{"prefix":"map","body":"map(  ${1:参数}, ${2:当前下限}, ${3:当前上限}, ${4:目标下限}, ${5:目标上限});","description":"映射范围","scope": "source.pde"}
+,"max":{"prefix":"max","body":"max(  ${1:列表});","description":"最大值","scope": "source.pde"}
+,"min":{"prefix":"min","body":"min(  ${1:列表});","description":"最小值","scope": "source.pde"}
+,"norm":{"prefix":"norm","body":"norm( ${1:参数, ${2:当前下限}, ${3:当前上限} );","description":"规范","scope": "source.pde"}
+,"pow":{"prefix":"pow","body":"pow(  ${1:参数}, ${1:N次方});","description":"N次方","scope": "source.pde"}
+,"round":{"prefix":"round","body":"round(  ${1:参数});","description":"四舍五入","scope": "source.pde"}
+,"sq":{"prefix":"sq","body":"sq(  ${1:平方});","description":"平方","scope": "source.pde"}
+,"sqrt":{"prefix":"sqrt","body":"sqrt(  ${1:根号} );","description":"平方根","scope": "source.pde"}
+,"acos":{"prefix":"acos","body":"acos( ${1:参数});","description":"反余弦","scope": "source.pde"}
+,"asin":{"prefix":"asin","body":"asin( ${1:参数});","description":"反正弦","scope": "source.pde"}
+,"atan":{"prefix":"atan","body":"atan( ${1:参数} );","description":"反正切","scope": "source.pde"}
+,"atan2":{"prefix":"atan2","body":"atan2( ${1:参数});","description":"切线","scope": "source.pde"}
+,"cos":{"prefix":"cos","body":"cos( ${1:参数});","description":"余弦","scope": "source.pde"}
+,"degrees":{"prefix":"degrees","body":"degrees( ${1:参数} );","description":"弧转角","scope": "source.pde"}
+,"radians":{"prefix":"radians","body":"radians( ${1:角转弧});","description":"角转弧","scope": "source.pde"}
+,"sin":{"prefix":"sin","body":"sin( ${1:参数});","description":"正弦","scope": "source.pde"}
+,"tan":{"prefix":"tan","body":"tan(${1:参数} );","description":"正切","scope": "source.pde"}
+,"noise":{"prefix":"noise","body":"noise( ${1:参数1},${2:参数2},${3:参数3});","description":"噪音随机","scope": "source.pde"}
+,"noiseDetail":{"prefix":"noiseDetail","body":"noiseDetail( ${1:参数1},${2:参数2});","description":"噪音细节","scope": "source.pde"}
+,"noiseSeed":{"prefix":"noiseSeed","body":"noiseSeed( ${1:参数});","description":"噪音种子","scope": "source.pde"}
+,"random":{"prefix":"random","body":"random(${1:最小值},${2:最大值} );","description":"随机","scope": "source.pde"}
+,"randomGaussian":{"prefix":"randomGaussian","body":"randomGaussian( );","description":"高斯随机","scope": "source.pde"}
+,"randomSeed":{"prefix":"randomSeed","body":"randomSeed(${1:参数} );","description":"随机种子","scope": "source.pde"}
+,"HALF_PI":{"prefix":"HALF_PI","body":"HALF_PI","description":"四分圆弧","scope": "source.pde"}
+,"PI":{"prefix":"PI","body":"PI","description":"半圆弧3.14","scope": "source.pde"}
+,"QUARTER_PI":{"prefix":"QUARTER_PI","body":"QUARTER_PI","description":"八分圆弧","scope": "source.pde"}
+,"TAU":{"prefix":"TAU","body":"TAU","description":"圆弧长","scope": "source.pde"}
+,"TWO_PI":{"prefix":"TWO_PI","body":"TWO_PI","description":"圆弧长","scope": "source.pde"}
+
+,"void P2":{"prefix":"void P2","body":["void setup( ){",
+    "    size(666,666);",
+    "}",                
+    "void draw( ){",
+    "}"],"description":"默认结构"}
+,"void P2D":{"prefix":"void P2D","body":["void setup( ){",
+    "    size(666,666,P2D);",
+    "}",                
+    "void draw( ){",
+    "}"],"description":"P2D结构"}   
+,"void P3D":{"prefix":"void P3D","body":["void setup( ){",
+    "    size(666,666,P3D);",
+    "}",                
+    "void draw( ){",
+    "}"],"description":"P3D结构"}
+,"void PFont":{"prefix":"void PFont","body":["PFont f;",
+    "void setup( ){",
+    "    size(666,666);",    
+    "    f = createFont( 字体 ,24 ,true);",
+    "}",
+    "void draw(){",
+    "    fill(0);",
+    "    textFont(f,36);",
+    "    text( 内容 ,x坐标,y坐标);",         
+    "}"],"description":"文字结构"}
+,"void PShape":{"prefix":"void PShape","body":["PShape s;",
+    "void setup( ) {",
+    "    size(666, 666);",
+    "    s = createShape(图形, x坐标 , y坐标 , 宽 , 高 );",
+    "}",
+    "void draw( ) {",
+    "    shape(s,x坐标 , y坐标 , 宽 , 高  );",
+    "}"],"description":"图形结构"}
+,"void PImage":{"prefix":"void PImage","body":["PImage img;",
+    "void setup( ){",
+    "    size(666,666);",
+    "    img = loadImage(图片.jpg);",
+    "}",                                  
+    "void draw( ){",
+    "    image(img ,x坐标 ,y坐标);",
+    "}"],"description":"图片结构"}
+,"void PGraphics":{"prefix":"void PGraphics","body":["PGraphics pg;",
+"void setup( ) {",
+"    size(666, 666);",
+"    pg = createGraphics(width, height);",
+"}",
+"void draw( ) {",
+"    pg.beginDraw( );",
+"    pg.background(0,0);",
+"    pg.endDraw( );",
+"    image(pg ,x坐标 ,y坐标);",
+"}",
+"void mousePressed( ){",
+"    pg.save('###.png');",
+"}"],"description":"绘图结构"}
+,"void Capture":{"prefix":"void Capture","body":["import processing.video.*;",                       
+"Capture video;",                       
+"void setup( ){",
+"    size(666,666);",  
+"    video = new Capture(this,x坐标,y坐标,帧数);",
+"    video.start();",
+"}",                        
+"void draw( ){",
+"    if(video.available( )) {",
+"        video.read();",
+"    }",
+"    image(video,x坐标,y坐标);",
+"}"  
+],"description":"摄像头结构"}
+,"void Movie":{"prefix":"void Movie","body":["import processing.video.*;",
+"Movie video;",                       
+"void setup( ){",
+"    size(666,666);",  
+"    video = new Movie(this, '视频.mp4');",
+"    video.play( );",
+"}",                      
+"void draw( ){",
+"    if(video.available( )){",
+"    video.read( );",
+"    }",                       
+"    image(video,x坐标,y坐标);",
+"}"  ],"description":"视频结构"}
+,"void AudioIn":{"prefix":"void AudioIn","body":["import processing.sound.*;",
+"AudioIn ai;",
+"Amplitude ampl;",                       
+"void setup( ){",
+"    size(666,666);",       
+"    ai = new AudioIn(this,0);",
+"    ai.play( );",                       
+"    ampl = new Amplitude(this);",
+"    ampl.input(ai);",
+"}",                     
+"void draw( ){",
+"    float v = ampl.analyze( );",                
+"}"         ],"description":"麦克风结构"}
+,"void SoundFile":{"prefix":"void SoundFile","body":["import processing.sound.*;",                  
+"SoundFile s;",
+"Amplitude ampl;",                           
+"void setup( ){",
+"    size(666,666);",   
+"    s = new SoundFile(this,'音频.mp3');",
+"    s.play();",
+"    ampl = new Amplitude(this);",
+"    ampl.input(s);",
+"}",                            
+"void draw( ){",
+"    float v = ampl.analyze( );",
+"}"     ],"description":"音频结构"}
+,"void File":{"prefix":"void File","body":["PShape s;",                               
+"void setup( ) {",
+"    size(666, 666);",
+"    s = loadShape('文件.svg');",
+"}",
+"void draw( ) {",
+"    shape(s ,x坐标 ,y坐标  ,宽  ,高  );",
+"}"         
+],"description":"文件结构"}
+,"void Class":{"prefix":"void Class","body":["c1[ ] c1c = new c1[ 1 ];",
+"void setup( ){",
+"    size(666, 666);",
+"    for (int i=0; i<c1c.length; i+=1) {",    
+"        c1c[i]= new c1( );",
+"    }",
+"}",
+"void draw( ){",
+"    for (int i=0; i<c1c.length; i+=1) { ", 
+"        c1c[i].c1v1( );",
+"    }",
+"} ",
+"class c1{", 
+"    c1( ){",
+"    }",
+"    void c1v1( ){",
+"    }",
+"}"],"description":"自制类结构"}
+}

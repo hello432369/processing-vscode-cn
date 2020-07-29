@@ -1,0 +1,40 @@
+{
+	"name": "processing.hub",
+	"displayName": "processing中文助手",
+	"description": "processing中文助手",
+	"version": "1.0.1",
+	"publisher": "p5cn",
+	"repository": "https://www.yuque.com/processing.hub",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": ["Snippets"],
+	"activationEvents": ["onLanguage:processing"],
+	"main": "./extension",
+	"contributes": {
+		"snippets": [{
+			"language": "pde",
+			"path": "./pde.json"
+		}],
+		"languages": [{
+			"id": "pde",
+			"aliases": [
+				"Processing"
+			],
+			"extensions": [
+				".pde"
+			],
+			"configuration": "./pde.configuration.json"
+		}],
+		"grammars": [{
+		  "language": "pde",
+		  "scopeName": "source.pde",
+		  "path": "./pde.tmLanguage"
+		}]
+	},
+
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.32.0"
+	}
+}
